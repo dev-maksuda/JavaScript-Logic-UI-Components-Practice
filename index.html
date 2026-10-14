@@ -7,66 +7,9 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-     <h1>JavaScript Logic & UI Components Practice</h1>
-
-    <!-- ==========================================
-         01. BASIC CONTROLS & LOGIC 
-         ========================================== -->
-    <hr>
-    <h2>01. Basic Controls & Logic</h2>
-
-    <!-- 1. Change Text -->
-    <div>
-        <h3>1. Change Text</h3>
-        <p id="text-to-change">Welcome to JavaScript!</p>
-        <button onclick="changeText()">Update Text</button>
-    </div>
-
-    <!-- 2. Show / Hide Password -->
-    <div>
-        <h3>2. Show / Hide Password</h3>
-        <input type="password" id="password-field" placeholder="Enter password">
-        <button onclick="togglePassword()">Show/Hide</button>
-    </div>
-
-    <!-- 3. Get Input Value -->
-    <div>
-        <h3>3. Get Input Value</h3>
-        <input type="text" id="user-input" placeholder="Type something...">
-        <button onclick="getValue()">Get Value</button>
-        <p id="display-value"></p>
-    </div>
-
-    <!-- 4. Change Color -->
-    <div>
-        <h3>4. Change Color</h3>
-        <button onclick="changeColor('red')">Red</button>
-        <button onclick="changeColor('green')">Green</button>
-        <button onclick="changeColor('blue')">Blue</button>
-        <p id="color-text">This text color will change!</p>
-    </div>
-
-    <!-- 5. Find Largest Number -->
-    <div>
-        <h3>5. Find Largest Number</h3>
-        <input type="number" id="num1" placeholder="Num 1">
-        <input type="number" id="num2" placeholder="Num 2">
-        <input type="number" id="num3" placeholder="Num 3">
-        <button onclick="findLargest()">Find Largest</button>
-        <p id="largest-result"></p>
-    </div>
-
-    <!-- 6. Math Calculator -->
-    <div>
-        <h3>6. Simple Calculator (Add, Subtract, Multiply, Divide)</h3>
-        <input type="number" id="calc-n1" placeholder="First Number">
-        <input type="number" id="calc-n2" placeholder="Second Number">
-        <br><br>
-        <button onclick="calculate('+')">Add (+)</button>
-        <button onclick="calculate('-')">Subtract (-)</button>
-        <button onclick="calculate('*')">Multiply (*)</button>
-        <button onclick="calculate('/')">Divide (/)</button>
-        <p>Result: <strong id="calc-result">0</strong></p>
+    <div class="text">
+        <h1 class="myText">Hello Javascript !</h1>
+        <button class="btn">change text</button>
     </div>
 
 <script src="./JS/script.js"></script>
