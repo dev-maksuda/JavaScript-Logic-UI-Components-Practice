@@ -36,3 +36,26 @@
 //         resultText.style.color = "red";
 //     }
 // });
+
+// --------------- Background Color Change------------
+
+// const btns = document.querySelectorAll(".btn");
+
+// btns[0].addEventListener('click', () => document.body.style.backgroundColor = "red");
+// btns[1].addEventListener('click', () => document.body.style.backgroundColor = "green");
+// btns[2].addEventListener('click', () => document.body.style.backgroundColor = "yellow");
+
+// ---------- Background Random Color Change -----------
+
+// const btn = document.querySelector(".btn");
+// const myText = document.querySelector(".myText");
+// const resultText = document.querySelector(".resultText");
+
+// btn.addEventListener('click', () => {
+//     const randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
+//     document.body.style.backgroundColor = randomColor;
+    
+//     myText.style.color = "blueviolet";
+//     resultText.textContent = "Background changed successfully!";
+//     resultText.style.color = "green";
+// });
