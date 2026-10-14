@@ -20,6 +20,22 @@
 //     input.type = "password"
 // });
 
+// -------------- or -----------------
+
+// const input = document.querySelector(".inputBtn");
+// const btn = document.querySelector(".btn");
+
+// btn.addEventListener('click', () => {
+//     if (input.type === "password") {
+//         input.type = "text";
+//         btn.textContent = "Hide";
+//     } else {
+//         input.type = "password";
+//         btn.textContent = "Show";
+//     }
+// });
+
+
 // ---------- 3.Odd or Even Checker ----------
 // const inputBtn = document.querySelector(".inputBtn");
 // const btn = document.querySelector(".btn");
@@ -37,7 +53,7 @@
 //     }
 // });
 
-// --------------- Background Color Change------------
+// --------------- 4.Background Color Change------------
 
 // const btns = document.querySelectorAll(".btn");
 
@@ -45,7 +61,7 @@
 // btns[1].addEventListener('click', () => document.body.style.backgroundColor = "green");
 // btns[2].addEventListener('click', () => document.body.style.backgroundColor = "yellow");
 
-// ---------- Background Random Color Change -----------
+// ---------- 5.Background Random Color Change -----------
 
 // const btn = document.querySelector(".btn");
 // const myText = document.querySelector(".myText");
@@ -59,3 +75,19 @@
 //     resultText.textContent = "Background changed successfully!";
 //     resultText.style.color = "green";
 // });
+
+// -- ------------- 6.Cart Add & Remove --------------- --
+
+// const minusBtn = document.querySelector(".minus-btn");
+// const plusBtn = document.querySelector(".plus-btn");
+// const inputBtn = document.querySelector(".inputBtn");
+
+// plusBtn.addEventListener('click', () => {
+//     inputBtn.value = Number(inputBtn.value) + 1;
+// });
+
+// minusBtn.addEventListener('click', () => {
+//     inputBtn.value = Number(inputBtn.value) - 1;
+// });
+
+
