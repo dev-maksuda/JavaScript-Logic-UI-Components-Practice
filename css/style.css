@@ -21,3 +21,12 @@
     border-radius: 25px;
     border: none;
 }
+.inputBtn{
+    padding: 15px;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    border: none;
+    width: 400px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
