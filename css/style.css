@@ -31,3 +31,11 @@
     overflow: hidden;
     margin-bottom: 20px;
 }
+.resetBtn{
+     background-color: blue;
+    color: white;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    width: 100px;
+}

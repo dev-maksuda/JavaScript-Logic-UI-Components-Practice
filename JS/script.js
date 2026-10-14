@@ -78,16 +78,24 @@
 
 // -- ------------- 6.Cart Add & Remove --------------- --
 
-// const minusBtn = document.querySelector(".minus-btn");
-// const plusBtn = document.querySelector(".plus-btn");
-// const inputBtn = document.querySelector(".inputBtn");
 
-// plusBtn.addEventListener('click', () => {
-//     inputBtn.value = Number(inputBtn.value) + 1;
-// });
+const input = document.querySelector(".inputBtn");
+const btn = document.querySelector(".btn");
+const resetBtn = document.querySelector(".resetBtn");
 
-// minusBtn.addEventListener('click', () => {
-//     inputBtn.value = Number(inputBtn.value) - 1;
-// });
+btn.addEventListener('click', () => {
+    if (input.type === "password") {
+        input.type = "text";
+        btn.textContent = "Hide";
+    } else {
+        input.type = "password";
+        btn.textContent = "Show";
+    }
+});
 
+resetBtn.addEventListener('click', () => {
+    input.value = "";
+    input.type = "password";
+    btn.textContent = "Show";
+});
 
