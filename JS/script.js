@@ -79,23 +79,36 @@
 // -- ------------- 6.Cart Add & Remove --------------- --
 
 
-const input = document.querySelector(".inputBtn");
-const btn = document.querySelector(".btn");
-const resetBtn = document.querySelector(".resetBtn");
+// const input = document.querySelector(".inputBtn");
+// const btn = document.querySelector(".btn");
+// const resetBtn = document.querySelector(".resetBtn");
 
-btn.addEventListener('click', () => {
-    if (input.type === "password") {
-        input.type = "text";
-        btn.textContent = "Hide";
-    } else {
-        input.type = "password";
-        btn.textContent = "Show";
-    }
+// btn.addEventListener('click', () => {
+//     if (input.type === "password") {
+//         input.type = "text";
+//         btn.textContent = "Hide";
+//     } else {
+//         input.type = "password";
+//         btn.textContent = "Show";
+//     }
+// });
+
+// resetBtn.addEventListener('click', () => {
+//     input.value = "";
+//     input.type = "password";
+//     btn.textContent = "Show";
+// });
+
+
+// ----------- Light & Dark Mode -----------------
+
+const myText = document.querySelector(".myText");
+const btns = document.querySelectorAll(".btn");
+
+btns[0].addEventListener('click', () => {
+    document.body.classList.remove("dark-mode");
 });
 
-resetBtn.addEventListener('click', () => {
-    input.value = "";
-    input.type = "password";
-    btn.textContent = "Show";
+btns[1].addEventListener('click', () => {
+    document.body.classList.add("dark-mode");
 });
-
