@@ -201,19 +201,44 @@
 
 // ------------- Multiplication -----------------------
 
-const firstNum = document.querySelector(".first-num");
-const secondNum = document.querySelector(".second-num");
-const btn = document.querySelector(".btn");
-const resultText = document.querySelector(".resultText");
+// const firstNum = document.querySelector(".first-num");
+// const secondNum = document.querySelector(".second-num");
+// const btn = document.querySelector(".btn");
+// const resultText = document.querySelector(".resultText");
 
-btn.addEventListener('click', () => {
-    if (firstNum.value === "" || secondNum.value === "") {
-        resultText.textContent = "Please enter both numbers!";
-        resultText.style.color = "orange";
-        return;
-    }
+// btn.addEventListener('click', () => {
+//     if (firstNum.value === "" || secondNum.value === "") {
+//         resultText.textContent = "Please enter both numbers!";
+//         resultText.style.color = "orange";
+//         return;
+//     }
 
-    const total = Number(firstNum.value) * Number(secondNum.value);
-    resultText.textContent = "Result: " + total;
-    resultText.style.color = "green";
-});
+//     const total = Number(firstNum.value) * Number(secondNum.value);
+//     resultText.textContent = "Result: " + total;
+//     resultText.style.color = "green";
+// });
+
+// --------------------- Division -------------------
+
+// const firstNum = document.querySelector(".first-num");
+// const secondNum = document.querySelector(".second-num");
+// const btn = document.querySelector(".btn");
+// const resultText = document.querySelector(".resultText");
+
+// btn.addEventListener('click', () => {
+//     if (firstNum.value === "" || secondNum.value === "") {
+//         resultText.textContent = "Please enter both numbers!";
+//         resultText.style.color = "orange";
+//         return;
+//     }
+
+//     if (Number(secondNum.value) === 0) {
+//         resultText.textContent = "Cannot divide by zero!";
+//         resultText.style.color = "red";
+//         return;
+//     }
+
+//     const total = Number(firstNum.value) / Number(secondNum.value);
+//     resultText.textContent = "Result: " + total;
+//     resultText.style.color = "blueviolet";
+// });
