@@ -341,3 +341,11 @@
 
 
 // -------------- Digital Clock ---------------------
+
+const resultText = document.querySelector(".resultText");
+
+setInterval(() => {
+    const time = new Date();
+    resultText.textContent = time.toLocaleTimeString();
+    resultText.style.color = "blueviolet";
+}, 1000);
