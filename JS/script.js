@@ -338,3 +338,6 @@
 //     resultText.textContent = diceRoll;
 //     resultText.style.color = "blueviolet";
 // });
+
+
+// -------------- Digital Clock ---------------------
