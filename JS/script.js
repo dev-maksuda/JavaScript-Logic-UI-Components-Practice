@@ -115,22 +115,105 @@
 
 // ------------- Email Validation ------------------
 
-const inputBtn = document.querySelector(".inputBtn");
+// const inputBtn = document.querySelector(".inputBtn");
+// const btn = document.querySelector(".btn");
+// const resultText = document.querySelector(".resultText");
+
+// btn.addEventListener('click', () => {
+//     const emailValue = inputBtn.value.trim();
+//     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+//     if (emailValue === "") {
+//         resultText.textContent = "Please enter an email address!";
+//         resultText.style.color = "orange";
+//     } else if (emailPattern.test(emailValue)) {
+//         resultText.textContent = "Valid Email Address!";
+//         resultText.style.color = "green";
+//     } else {
+//         resultText.textContent = "Invalid Email Address!";
+//         resultText.style.color = "red";
+//     }
+// });
+
+
+// ---------------------- Age Validation -----------------------
+// const inputBtn = document.querySelector(".inputBtn");
+// const btn = document.querySelector(".btn");
+// const resultText = document.querySelector(".resultText");
+
+// btn.addEventListener('click', () => {
+//     const ageValue = inputBtn.value.trim();
+//     const age = Number(ageValue);
+
+//     if (ageValue === "") {
+//         resultText.textContent = "Please enter your age!";
+//         resultText.style.color = "orange";
+//     } else if (age < 0 || age > 200) {
+//         resultText.textContent = "Please enter a valid age!";
+//         resultText.style.color = "red";
+//     } else if (age >= 18) {
+//         resultText.textContent = "You are an Adult!";
+//         resultText.style.color = "green";
+//     } else {
+//         resultText.textContent = "You are a Minor!";
+//         resultText.style.color = "blueviolet";
+//     }
+// });
+
+// ----------------- Add Two Numbers ------------------
+
+// const firstNum = document.querySelector(".first-num");
+// const secondNum = document.querySelector(".second-num");
+// const btn = document.querySelector(".btn");
+// const resultText = document.querySelector(".resultText");
+
+// btn.addEventListener('click', () => {
+//     if (firstNum.value === "" || secondNum.value === "") {
+//         resultText.textContent = "Please enter both numbers!";
+//         resultText.style.color = "orange";
+//         return;
+//     }
+
+//     const total = Number(firstNum.value) + Number(secondNum.value);
+//     resultText.textContent = "Result: " + total;
+//     resultText.style.color = "green";
+// });
+
+
+// ------------------------- Subtraction ----------------
+
+// const firstNum = document.querySelector(".first-num");
+// const secondNum = document.querySelector(".second-num");
+// const btn = document.querySelector(".btn");
+// const resultText = document.querySelector(".resultText");
+
+// btn.addEventListener('click', () => {
+//     if (firstNum.value === "" || secondNum.value === "") {
+//         resultText.textContent = "Please enter both numbers!";
+//         resultText.style.color = "orange";
+//         return;
+//     }
+
+//     const total = Number(firstNum.value) - Number(secondNum.value);
+//     resultText.textContent = "Result: " + total;
+//     resultText.style.color = "blueviolet";
+// });
+
+// ------------- Multiplication -----------------------
+
+const firstNum = document.querySelector(".first-num");
+const secondNum = document.querySelector(".second-num");
 const btn = document.querySelector(".btn");
 const resultText = document.querySelector(".resultText");
 
 btn.addEventListener('click', () => {
-    const emailValue = inputBtn.value.trim();
-    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-    if (emailValue === "") {
-        resultText.textContent = "Please enter an email address!";
+    if (firstNum.value === "" || secondNum.value === "") {
+        resultText.textContent = "Please enter both numbers!";
         resultText.style.color = "orange";
-    } else if (emailPattern.test(emailValue)) {
-        resultText.textContent = "Valid Email Address!";
-        resultText.style.color = "green";
-    } else {
-        resultText.textContent = "Invalid Email Address!";
-        resultText.style.color = "red";
+        return;
     }
+
+    const total = Number(firstNum.value) * Number(secondNum.value);
+    resultText.textContent = "Result: " + total;
+    resultText.style.color = "green";
 });

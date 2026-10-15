@@ -30,6 +30,7 @@
     width: 400px;
     overflow: hidden;
     margin-bottom: 20px;
+    text-align: center;
 }
 .resetBtn{
      background-color: blue;
