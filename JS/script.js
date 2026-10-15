@@ -53,6 +53,33 @@
 //     }
 // });
 
+// --------------------- or --------------------------
+
+const inputBtn = document.querySelector(".inputBtn");
+const btn = document.querySelector(".btn");
+const resultText = document.querySelector(".resultText");
+
+btn.addEventListener('click', () => {
+    const inputValue = inputBtn.value.trim();
+
+    if (inputValue === "") {
+        resultText.textContent = "Please enter a number!";
+        resultText.style.color = "orange";
+        return;
+    }
+
+    const value = Number(inputValue);
+
+    if (value % 2 === 0) {
+        resultText.textContent = "Even";
+        resultText.style.color = "green";
+    } else {
+        resultText.textContent = "Odd";
+        resultText.style.color = "red";
+    }
+});
+
+
 // --------------- 4.Background Color Change------------
 
 // const btns = document.querySelectorAll(".btn");
