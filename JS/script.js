@@ -242,3 +242,71 @@
 //     resultText.textContent = "Result: " + total;
 //     resultText.style.color = "blueviolet";
 // });
+
+// ----------------- Find Large Number -------------
+// const firstNum = document.querySelector(".first-num");
+// const secondNum = document.querySelector(".second-num");
+// const btn = document.querySelector(".btn");
+// const resultText = document.querySelector(".resultText");
+
+// btn.addEventListener('click', () => {
+//     if (firstNum.value === "" || secondNum.value === "") {
+//         resultText.textContent = "Please enter both numbers!";
+//         resultText.style.color = "orange";
+//         return;
+//     }
+
+//     const num1 = Number(firstNum.value);
+//     const num2 = Number(secondNum.value);
+
+//     if (num1 > num2) {
+//         resultText.textContent = num1 + " is larger";
+//         resultText.style.color = "green";
+//     } else if (num2 > num1) {
+//         resultText.textContent = num2 + " is larger";
+//         resultText.style.color = "blueviolet";
+//     } else {
+//         resultText.textContent = "Both numbers are equal";
+//         resultText.style.color = "gray";
+//     }
+// });
+
+// ----------------- Find Small Number -----------------------
+
+// const firstNum = document.querySelector(".first-num");
+// const secondNum = document.querySelector(".second-num");
+// const btn = document.querySelector(".btn");
+// const resultText = document.querySelector(".resultText");
+
+// btn.addEventListener('click', () => {
+//     if (firstNum.value === "" || secondNum.value === "") {
+//         resultText.textContent = "Please enter both numbers!";
+//         resultText.style.color = "orange";
+//         return;
+//     }
+
+//     const num1 = Number(firstNum.value);
+//     const num2 = Number(secondNum.value);
+
+//     if (num1 < num2) {
+//         resultText.textContent = num1 + " is smaller";
+//         resultText.style.color = "green";
+//     } else if (num2 < num1) {
+//         resultText.textContent = num2 + " is smaller";
+//         resultText.style.color = "blueviolet";
+//     } else {
+//         resultText.textContent = "Both numbers are equal";
+//         resultText.style.color = "gray";
+//     }
+// });
+// --------------- Ludo Dice Roller ------------------- 
+// const btn = document.querySelector(".btn");
+// const resultText = document.querySelector(".resultText");
+
+// btn.addEventListener('click', () => {
+  
+//     const diceRoll = Math.floor(Math.random() * 6) + 1;
+    
+//     resultText.textContent = diceRoll;
+//     resultText.style.color = "blueviolet";
+// });
