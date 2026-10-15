@@ -100,15 +100,37 @@
 // });
 
 
-// ----------- Light & Dark Mode -----------------
+// ----------- 7.Light & Dark Mode -----------------
 
-const myText = document.querySelector(".myText");
-const btns = document.querySelectorAll(".btn");
+// const myText = document.querySelector(".myText");
+// const btns = document.querySelectorAll(".btn");
 
-btns[0].addEventListener('click', () => {
-    document.body.classList.remove("dark-mode");
-});
+// btns[0].addEventListener('click', () => {
+//     document.body.classList.remove("dark-mode");
+// });
 
-btns[1].addEventListener('click', () => {
-    document.body.classList.add("dark-mode");
+// btns[1].addEventListener('click', () => {
+//     document.body.classList.add("dark-mode");
+// });
+
+// ------------- Email Validation ------------------
+
+const inputBtn = document.querySelector(".inputBtn");
+const btn = document.querySelector(".btn");
+const resultText = document.querySelector(".resultText");
+
+btn.addEventListener('click', () => {
+    const emailValue = inputBtn.value.trim();
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (emailValue === "") {
+        resultText.textContent = "Please enter an email address!";
+        resultText.style.color = "orange";
+    } else if (emailPattern.test(emailValue)) {
+        resultText.textContent = "Valid Email Address!";
+        resultText.style.color = "green";
+    } else {
+        resultText.textContent = "Invalid Email Address!";
+        resultText.style.color = "red";
+    }
 });
