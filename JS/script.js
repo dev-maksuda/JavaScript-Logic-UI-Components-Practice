@@ -113,7 +113,7 @@
 //     document.body.classList.add("dark-mode");
 // });
 
-// ------------- Email Validation ------------------
+// ------------- 8.Email Validation ------------------
 
 // const inputBtn = document.querySelector(".inputBtn");
 // const btn = document.querySelector(".btn");
@@ -136,7 +136,7 @@
 // });
 
 
-// ---------------------- Age Validation -----------------------
+// ---------------------- 9.Age Validation -----------------------
 // const inputBtn = document.querySelector(".inputBtn");
 // const btn = document.querySelector(".btn");
 // const resultText = document.querySelector(".resultText");
@@ -160,7 +160,7 @@
 //     }
 // });
 
-// ----------------- Add Two Numbers ------------------
+// ----------------- 10.Add Two Numbers ------------------
 
 // const firstNum = document.querySelector(".first-num");
 // const secondNum = document.querySelector(".second-num");
@@ -180,7 +180,7 @@
 // });
 
 
-// ------------------------- Subtraction ----------------
+// ------------------------- 11.Subtraction ----------------
 
 // const firstNum = document.querySelector(".first-num");
 // const secondNum = document.querySelector(".second-num");
@@ -199,7 +199,7 @@
 //     resultText.style.color = "blueviolet";
 // });
 
-// ------------- Multiplication -----------------------
+// ------------- 12.Multiplication -----------------------
 
 // const firstNum = document.querySelector(".first-num");
 // const secondNum = document.querySelector(".second-num");
@@ -218,7 +218,7 @@
 //     resultText.style.color = "green";
 // });
 
-// --------------------- Division -------------------
+// --------------------- 13.Division -------------------
 
 // const firstNum = document.querySelector(".first-num");
 // const secondNum = document.querySelector(".second-num");
@@ -243,7 +243,7 @@
 //     resultText.style.color = "blueviolet";
 // });
 
-// ----------------- Find Large Number -------------
+// ----------------- 14.Find Large Number -------------
 // const firstNum = document.querySelector(".first-num");
 // const secondNum = document.querySelector(".second-num");
 // const btn = document.querySelector(".btn");
@@ -271,7 +271,7 @@
 //     }
 // });
 
-// ----------------- Find Small Number -----------------------
+// ----------------- 15.Find Small Number -----------------------
 
 // const firstNum = document.querySelector(".first-num");
 // const secondNum = document.querySelector(".second-num");
@@ -299,7 +299,7 @@
 //         resultText.style.color = "gray";
 //     }
 // });
-// --------------- Ludo Dice Roller ------------------- 
+// --------------- 16.Ludo Dice Roller ------------------- 
 // const btn = document.querySelector(".btn");
 // const resultText = document.querySelector(".resultText");
 
