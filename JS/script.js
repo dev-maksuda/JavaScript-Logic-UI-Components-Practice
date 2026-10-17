@@ -1,4 +1,4 @@
-//  -- --- text change ---- --
+//  -- --- 1.text change ---- --
 // const myText = document.querySelector(".myText");
 // const btn = document.querySelector(".btn");
 
@@ -340,7 +340,7 @@
 // });
 
 
-// -------------- Digital Clock ---------------------
+// -------------- 17.Digital Clock ---------------------
 
 const resultText = document.querySelector(".resultText");
 
